@@ -1,0 +1,140 @@
+* {box-sizing: border-box;}
+
+body{
+    background-image: url("./images/phone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    padding-left: 35px;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: green;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+#input-field {
+  width: 30%;
+  padding: 10px;
+  outline: none;
+  border-color: green;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+
+/* Set a style for the sign up button */
+#btn {
+    background-color: white;
+    color:green;
+    padding: 15px;
+    border-color: green;
+    cursor: pointer;
+    width: 36%;
+    opacity: 0.9;
+    margin-left: 0%;
+
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+/* row */
+  .row{
+      padding-left: 40%;
+      padding-bottom: 10%;
+  }
+
+  /* animation*/
+  .slide-left {
+    width:100%;
+    overflow:hidden;
+    padding-left: 43%;
+  }
+  
+  div.slide-left h3 {
+    animation: slide-left 45s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/phone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h5{
+    text-align: center;
+    color: palevioletred
+    
+}
+ button{
+     margin-left: 44%;
+ }
+
+.h{
+    padding-top: 10%;
+}
+
+.fname{
+    margin-left: 2%;
+    width: 15%;
+    border-radius: 4px;
+}
+
+
+.femail{
+    margin-left: %;
+    width: 15%;
+    border-radius: 4px;
+}
+
+
+.fdate{
+    margin-left: 1%;
+    width: 95%;
+    border-radius: 4px;
+}
